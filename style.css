@@ -1,0 +1,32 @@
+/* Grab Bootstrap from assets */
+@import "css/bootstrap.min.css";
+
+/* Roboto font from GWF */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    padding-top: 50px;
+}
+
+.header-row {
+    border-bottom: 3px solid #800000;
+}
+
+.header-menu {
+    font-size: small;
+}
+
+.header-title {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-inline a {
+    color: black;
+    display: block;
+}
+
+.list-inline a:hover {
+    background-color: #800000;
+}
